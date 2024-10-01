@@ -1,0 +1,101 @@
+.contact-form {
+    border: 2px solid #ddd;
+    padding: 40px 0px 0px 0px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+.title{
+    background-color: #004a7c;
+    color: white;
+    padding: 10px 31px;
+    position: absolute;
+    top: -20px;
+    right: 35px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+
+}
+.input-style{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 45px;
+    margin-right: 15px;
+}
+.label-ContactInformation {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+select{
+      width: 230px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: right;  
+}
+.input-ContactInformation { 
+    width: 230px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: right;  
+}
+
+button.verify-button {
+    background-color: #004a99;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 25px;
+    width: 200px;
+    height: 39px;
+
+}
+
+button.verify-button:hover {
+    background-color: #003366;
+}
+
+.alert-box_con {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #83ff00;
+    padding: 10px;
+    border-radius: 4px;
+    width: 410px;
+    margin-right: 14px;
+  }
+  .alert-text_con {
+    color: #83ff00;
+
+  }
+.OTPCheck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000
+}

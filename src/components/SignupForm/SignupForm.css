@@ -1,0 +1,52 @@
+.SignupForm {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 90px;
+  }
+  
+  .form-group-SignupForm {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+
+}
+.input-style-SignupForm{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    margin-right: 15px;
+}
+.label-SignupForm {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-SignupForm{
+    width: 230px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: right;
+}
+
+.submit-button-SignupForm {
+    background-color: #004a99;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 120px;
+    height: 39px;
+
+}
+
+.submit-button-SignupForm:hover {
+    background-color: #003366;
+}

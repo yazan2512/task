@@ -1,0 +1,73 @@
+.upload-container {
+
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: right;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 12px;
+    margin-bottom: 195px;
+  }
+  
+ .h2-upload {
+    font-size: 18px;
+    color: #003366;
+  }
+  
+  .description {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  .upload-area {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .upload-button {
+    background-color: #004a99;
+    color: white;
+    padding: 11px 38px;
+    border-radius: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .file-name {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 13px;
+    color: #000;
+
+  }
+  
+  .file-icon {
+    font-size: 24px;
+    color: #aaa;
+    position: absolute;
+    right: 15px;
+  }
+  
+  .file-info {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+    text-align: right;
+  }
+  .icon-upload{
+    width: 55px;
+    height: 40px;
+  }

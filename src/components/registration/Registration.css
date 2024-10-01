@@ -1,0 +1,73 @@
+.registration{
+    margin: 100px;
+    width: 80%;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.top_page{
+    background-color:  #003366;
+    padding-bottom: 20px;
+}
+.h3-registration{
+    margin-right: 20px;
+    text-align: right;
+}
+.p-registration{
+    color: #817373;
+    margin-right: 25px;
+    text-align: right;
+}
+.content-registration{
+    border: 2px solid #9d8585;
+    padding: 20px 0px 0px 0px;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 45px;
+}
+.title-registration{
+    background-color: #004a7c;
+    color: white;
+    padding: 10px 31px;
+    position: absolute;
+    top: -20px;
+    right: 35px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.all-button{
+    display: flex;
+    justify-content: center;
+}
+.button-exit{
+    background-color: #004a99;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 130px;
+    height: 39px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+.button-exit:hover {
+    background-color: #003366;
+}
+.button-create{
+    background-color: #004a99;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 130px;
+    height: 39px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.button-create:hover {
+    background-color: #003366;
+}
